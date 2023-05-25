@@ -1,0 +1,44 @@
+* {
+    margin: 20px;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --color-primary: #4C0B5F;
+    --color-secondary: #BE81F7;
+    --color-tres: #A9A9F5;
+    --size-font-s: 14px;
+    --size-font-m: 28px;
+    --size-font-l: 55px;
+}
+
+h1 {
+    display: inline;
+    color: var(--color-primary);
+    font-size: var(--size-font-l);
+    font-family: 'Great Vibes', cursive;
+    float: inline-start;
+}
+
+
+
+h2 {
+
+    color: var(--color-secondary);
+    text-decoration-line: underline;
+    font-size: var(--size-font-m);
+}
+
+h3 {
+    display: inline;
+    color: var(--color-tres);
+    font-size: var(--size-font-s);
+}
+
+.box {
+    display: block;
+    border-width: 5px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 2px 5px 5px 2px violet;
+}
