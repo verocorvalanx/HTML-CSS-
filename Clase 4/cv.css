@@ -2,6 +2,7 @@
     margin: 20px;
 
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(235, 233, 233);
 }
 
 :root {
@@ -21,7 +22,10 @@ h1 {
     float: inline-start;
 }
 
-
+img{
+    border-style: solid;
+    border-color: black;
+}
 
 h2 {
 
