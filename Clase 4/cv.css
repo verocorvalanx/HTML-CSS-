@@ -21,11 +21,15 @@ h1 {
     font-size: var(--size-font-l);
     font-family: 'Great Vibes', cursive;
     float: inline-start;
+   
+
 }
 
 img {
     border-style: solid;
+    display: inline;
     border-color: black;
+
 }
 
 h2 {
