@@ -20,7 +20,7 @@ h1 {
     color: var(--color-primary);
     font-size: var(--size-font-l);
     font-family: 'Great Vibes', cursive;
-    float: inline-start;
+    text-align: center;
    
 
 }
