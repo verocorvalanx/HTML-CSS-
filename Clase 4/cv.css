@@ -3,6 +3,7 @@
 
     font-family: 'Raleway', sans-serif;
     background-color: rgb(235, 233, 233);
+
 }
 
 :root {
@@ -22,7 +23,7 @@ h1 {
     float: inline-start;
 }
 
-img{
+img {
     border-style: solid;
     border-color: black;
 }
@@ -33,6 +34,8 @@ h2 {
     text-decoration-line: underline;
     font-size: var(--size-font-m);
 }
+
+
 
 h3 {
     display: inline;
