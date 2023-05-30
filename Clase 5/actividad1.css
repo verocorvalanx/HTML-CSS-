@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+}
+#uno, #dos{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: inline-block;
+    margin: auto;
+    margin-right: 20px;
+    margin-top: 300px;
+
+
+}
