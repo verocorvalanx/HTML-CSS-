@@ -1,0 +1,97 @@
+font-family: 'Fira Sans',
+sans-serif;
+font-family: 'Nunito',
+sans-serif;
+
+* {
+    margin: 0px, auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-title: 'Fira Sans';
+    --font-paragraph: 'Nunito';
+    --color-primary: #000000;
+    --color-secondary: #fbd44f;
+    --color-tertiary: #24a04a;
+    --size-font-s: 14px;
+    --size-font-m: 18px;
+    --size-font-l: 35px;
+}
+
+header {
+    height: 112.5px;
+    width: 100%;
+    background-color: var(--color-primary);
+    margin: 0px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 30px;
+   
+
+}
+
+nav {
+    float: left;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 80px;
+
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-title);
+    font-size: var(--size-font-l);
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+
+header img {
+    width: 300px;
+    float: right;
+
+}
+
+footer{
+    height: 112.5px;
+    width: 100%;
+    background-color: var(--color-secondary);
+    margin: 0px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+   clear: both;
+}
+
+.redes{
+    padding-top:25px;
+    padding-left: 25px;
+  
+}
+
+.bxl-twitter{
+    font-size: 50px;
+}
+
+.bxl-facebook{
+    font-size: 50px;
+}
+.bxl-instagram{
+    font-size: 50px;
+}
+
+footer span{
+    float:right;
+    clear: both;
+    padding-right: 60px;
+    
+}
