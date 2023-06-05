@@ -9,10 +9,14 @@ sans-serif;
     box-sizing: border-box;
 }
 
+body {
+    margin: 20px;
+}
+
 :root {
     --font-title: 'Fira Sans';
     --font-paragraph: 'Nunito';
-    --color-primary: #000000;
+    --color-primary: #e53631;
     --color-secondary: #fbd44f;
     --color-tertiary: #24a04a;
     --size-font-s: 14px;
@@ -22,13 +26,11 @@ sans-serif;
 
 header {
     height: 112.5px;
-    width: 100%;
     background-color: var(--color-primary);
     margin: 0px;
     padding-top: 15px;
     padding-left: 50px;
     padding-right: 30px;
-   
 
 }
 
@@ -58,40 +60,72 @@ header nav li a {
 header img {
     width: 300px;
     float: right;
+}
+
+aside{
+    clear: both;
+    border-right: #e53631 solid 3px;
+    float: left;
+}
+
+aside nav li{
+    list-style: none;
+    
+}
+
+aside nav li a{
+    text-decoration: none;
+    color:black;
 
 }
 
-footer{
+main{
+    float:right;
+}
+
+footer {
     height: 112.5px;
-    width: 100%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     margin: 0px;
     padding-top: 15px;
     padding-left: 50px;
     padding-right: 50px;
-   clear: both;
+    clear: both;
 }
 
-.redes{
-    padding-top:25px;
+.redes {
+    padding-top: 25px;
     padding-left: 25px;
-  
+
 }
 
-.bxl-twitter{
+.bxl-twitter {
     font-size: 50px;
+    border: white solid 5px;
+    border-radius: 30px;
+    background-color: white;
 }
 
-.bxl-facebook{
+.bxl-facebook {
     font-size: 50px;
-}
-.bxl-instagram{
-    font-size: 50px;
+    border: white solid 5px;
+    border-radius: 30px;
+    background-color: white;
 }
 
-footer span{
-    float:right;
+.bxl-instagram {
+    font-size: 50px;
+    border: white solid 5px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+footer span {
+    float: right;
     clear: both;
     padding-right: 60px;
-    
+    padding-top: 20px;
+    font-family: var(--font-title);
+    color: white;
+
 }
