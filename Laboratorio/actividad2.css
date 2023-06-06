@@ -6,12 +6,11 @@ sans-serif;
 * {
     margin: 0px, auto;
     padding: 0px;
+   
     box-sizing: border-box;
 }
 
-body {
-    margin: 20px;
-}
+
 
 :root {
     --font-title: 'Fira Sans';
@@ -19,18 +18,42 @@ body {
     --color-primary: #e53631;
     --color-secondary: #fbd44f;
     --color-tertiary: #24a04a;
-    --size-font-s: 14px;
-    --size-font-m: 18px;
+    --size-font-s: 20px;
+    --size-font-m: 28px;
     --size-font-l: 35px;
+}
+
+body {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+aside h1 {
+    font-family: var(--font-title);
+    font-size: var(--size-font-l);
+    letter-spacing: 4px;
+    color: white;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 90%;
+    background-color: #000000;
+    clear: both;
+    margin-bottom: 5rem;
+
 }
 
 header {
     height: 112.5px;
-    background-color: var(--color-primary);
+    border-bottom: black solid 3px;
     margin: 0px;
     padding-top: 15px;
     padding-left: 50px;
     padding-right: 30px;
+    background-color: #e53631;
+    width: 100%;
+    
 
 }
 
@@ -44,16 +67,21 @@ header nav li {
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 80px;
+    
 
 }
 
 header nav li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: var(--font-title);
     font-size: var(--size-font-l);
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-weight: bold;
+}
+
+header nav li a:hover {
+    color: #ffffff;
 
 }
 
@@ -62,30 +90,156 @@ header img {
     float: right;
 }
 
-aside{
+aside {
     clear: both;
-    border-right: #e53631 solid 3px;
+    border-right: #000000 solid 3px;
+
     float: left;
+    display: block;
+    width: 25%;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin: 20px;
+
+
+
 }
 
-aside nav li{
+aside nav {
+    display: block;
+    width: 100%;
+    margin-bottom: 15rem;
+}
+
+aside form {
+    display: block;
+    line-height: 3rem;
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+aside form input {
+    border: #000000 solid 1px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    color: #000000;
+    font-weight: bold;
+    font-family: var(--font-paragraph);
+    margin-bottom: 30px;
+}
+
+aside form input:hover {
+    box-shadow: 0 0 10px 0 #000000;
+    border: #e53631;
+    cursor: pointer;
+}
+
+aside form textarea:hover {
+    box-shadow: 0 0 10px 0 #000000;
+    border: #e53631;
+    cursor: pointer;
+}
+
+aside form input:focus {
+    outline: none;
+}
+
+aside form textarea:focus {
+    outline: none;
+}
+
+aside form textarea {
+    border: #000000 solid 1px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: auto;
+    padding: 15px;
+    margin: 0;
+    color: #000000;
+    font-weight: bold;
+    font-family: var(--font-paragraph);
+    margin-bottom: 30px;
+
+}
+
+
+.button1 {
+    border: #000000 solid 3px;
+    background-color: white;
+    color: black;
+    width: auto;
+    padding: 20px;
+    font-family: var(--font-paragraph);
+    font-size: var(--size-font-s);
+    border-radius: 10%;
+
+    font-weight: 900;
+    float: right;
+
+}
+
+.button1:hover {
+    background-color: #24a04a;
+    border: #24a04a solid 3px;
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    border: #e53631 solid 3px;
+    background-color: #e53631;
+    color: rgb(255, 255, 255);
+    width: auto;
+    padding: 20px;
+    font-family: var(--font-paragraph);
+    font-size: var(--size-font-s);
+    border-radius: 20px 0px 20px 0px;
+    font-weight: 900;
+    float: right;
+
+}
+
+button:hover {
+    background-color: #24a04a;
+    border: #24a04a solid 3px;
+    color: white;
+    cursor: pointer;
+}
+
+aside nav li {
     list-style: none;
-    
+    font-size: var(--size-font-m);
+
+
 }
 
-aside nav li a{
+
+aside nav li a {
     text-decoration: none;
-    color:black;
+    color: black;
+    letter-spacing: 3px;
+    line-height: 4rem;
+    font-weight: bold;
+    font-family: var(--font-paragraph);
 
 }
 
-main{
-    float:right;
+aside nav li a:hover {
+    color: #e53631;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
 }
+
 
 footer {
-    height: 112.5px;
-    background-color: var(--color-primary);
+    height: 90px;
+    border-top: black solid 3px;
     margin: 0px;
     padding-top: 15px;
     padding-left: 50px;
@@ -100,24 +254,32 @@ footer {
 }
 
 .bxl-twitter {
-    font-size: 50px;
-    border: white solid 5px;
-    border-radius: 30px;
-    background-color: white;
+    font-size: 40px;
+
+}
+
+.bxl-twitter:hover {
+    font-size: 60px;
+    bx: bx-tada;
+
 }
 
 .bxl-facebook {
-    font-size: 50px;
-    border: white solid 5px;
-    border-radius: 30px;
-    background-color: white;
+    font-size: 40px;
+
+}
+
+.bxl-facebook:hover {
+    font-size: 60px;
+
 }
 
 .bxl-instagram {
-    font-size: 50px;
-    border: white solid 5px;
-    border-radius: 30px;
-    background-color: white;
+    font-size: 40px;
+}
+
+.bxl-instagram:hover {
+    font-size: 60px;
 }
 
 footer span {
@@ -125,7 +287,84 @@ footer span {
     clear: both;
     padding-right: 60px;
     padding-top: 20px;
-    font-family: var(--font-title);
-    color: white;
+    font-family: var(--font-paragraph);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 
+}
+
+main {
+    margin: 20px;
+    width: 70%;
+    clear: both;
+    display: inline-block;
+}
+
+section {
+    display: block;
+    clear: both;
+
+}
+
+section h1 {
+    font-family: var(--font-title);
+    font-size: var(--size-font-l);
+    letter-spacing: 4px;
+    color: white;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 90%;
+    background-color: #000000;
+    clear: both;
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    clear: both;
+    font-family: var(--font-paragraph);
+    border: #fbd44f solid 5px;
+    border-radius: 00px 30px 30px 0px;
+    background-color: #fbd44f;
+
+
+}
+
+.card-image {
+    height: 300px;
+    background-image: url(./Imágenes/plato.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 30px 0px 0px;
+}
+
+main section .card .precio {
+    background: #e53631;
+    width: 25%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 00px 0px 20px 0px;
+    font-family: var(--font-paragraph);
+    margin-top: 0;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+main section .card .description {
+    margin-left: 5px;
+    padding-top: 20px;
+    height: 90px;
+    clear: both;
+    text-align: center;
+    font-family: var(--font-paragraph);
+    font-size: var(--size-font-s);
+    background-color: #fbd44f;
+    letter-spacing: 4px;
 }
