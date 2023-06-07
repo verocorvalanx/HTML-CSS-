@@ -1,49 +1,112 @@
 *{
-    margin: 0 auto;
+    margin: 0 ;
     box-sizing: border-box;
     
 }
 
 body{
-    margin:20px;
+    margin-left:30px;
     width: 100%;
+    
 }
+
+
 
 aside{
     display: inline-flex;
-    width:30%;
+    width:13%;
+    height: 100%;
     flex-direction: column;
     justify-content: left;
     clear: both;
 }
 
+.circle{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    justify-content: flex-start;
+    align-self: center;
+    background-color: black;
+    border: black solid 100px;
+    border-radius: 100%;
+    margin-bottom: 10%;
+}
+
 aside ul{
 list-style: none;
+font-size: larger;
+font-weight: bold;
 }
+
+aside p{
+font-size: larger;
+margin-top: 10%;
+text-align: justify;
+} 
 
 main{
     display: flex;
-    width: 70%;
+    width: 87%;
     clear: both;
+    float: right;
+    flex-direction: column;
     justify-content: right;
+    padding-left: 50px;
+    
+}
+.card{
+    display: inline-block;
+    flex-direction: row;
+    clear: both;
+    width: 20%;
+    height: 50%;
+    border: black solid 1px;
+}
+.card-image{
+    height: 300px;
+    background-image: url(./images/plato.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen{
+width: 50%;
+clear: both;
+
+}
+.card h1{
+    text-align: center;
+    color: rgb(32, 102, 78);
+    font-weight: bold;
 }
 
 footer{
-    width: 100%;
+    width: 90%;
+    clear: both;
 }
 
 footer .redes{
     display: inline-flex;
-    width: 30%;
+    
     justify-content: left;
-    align-items: flex-start;
     clear: both;
 
 }
 
 footer .info{
-    width: 70%;
+   
     display: flex;
-    justify-content: right
+    justify-content: right;
     
+}
+
+.bxl-twitter {
+    font-size: 40px;
+}
+.bxl-facebook {
+    font-size: 40px;
+}
+.bxl-instagram {
+    font-size: 40px;
 }
