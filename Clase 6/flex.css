@@ -1,0 +1,49 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin:20px;
+    width: 100%;
+}
+
+aside{
+    display: inline-flex;
+    width:30%;
+    flex-direction: column;
+    justify-content: left;
+    clear: both;
+}
+
+aside ul{
+list-style: none;
+}
+
+main{
+    display: flex;
+    width: 70%;
+    clear: both;
+    justify-content: right;
+}
+
+footer{
+    width: 100%;
+}
+
+footer .redes{
+    display: inline-flex;
+    width: 30%;
+    justify-content: left;
+    align-items: flex-start;
+    clear: both;
+
+}
+
+footer .info{
+    width: 70%;
+    display: flex;
+    justify-content: right
+    
+}
