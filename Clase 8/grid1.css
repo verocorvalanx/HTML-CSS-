@@ -1,0 +1,37 @@
+body {
+    margin: 10%;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'celeste uno' 'celeste dos';
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 300px 300px;
+}
+
+.grid-container .item {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid black 1px;
+
+
+
+}
+
+.item-celeste {
+    grid-area: celeste;
+    background-color: aqua;
+    grid-row: span 2;
+
+}
+
+.item-1 {
+    grid-area: uno;
+}
+
+.item-2 {
+    grid-area: dos;
+}

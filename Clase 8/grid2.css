@@ -1,0 +1,48 @@
+body {
+    margin: 10%;
+    box-sizing: border-box;
+    color: rgb(123, 33, 33);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'abc abc abc' 'two three four' 'two five .';
+    background-color: darksalmon;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 200px 200px;
+}
+
+
+.grid-container .item {
+
+    font-size: 30px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid rgb(255, 139, 38) 2px;
+    background-color: bisque;
+
+
+}
+
+.item-abc {
+    grid-area: abc;
+    padding: 20px;
+    border: solid yellow 2px;
+    background-color: rgb(251, 244, 236);
+}
+
+.item-two {
+    grid-area: two;
+}
+
+.item-three {
+    grid-area: three;
+}
+
+.item-four {
+    grid-area: four;
+}
+
+.item-five {
+    grid-area: five;
+}
