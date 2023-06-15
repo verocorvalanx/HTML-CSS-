@@ -1,0 +1,34 @@
+
+.relative{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.relative div{
+    width: 100px;
+    height: 100px;
+}
+
+.relative .a{
+    position: absolute;
+    background-color: rgb(185, 137, 231);
+    top:0;
+    left:20px;
+    z-index: 1;
+   
+}
+
+.relative .b{
+    position: absolute;
+    background-color: rgb(179, 225, 179);
+    top:0;
+    left:40px;
+    z-index: 2;
+}
+
+.relative .c{
+    position: absolute;
+    background-color: rgb(106, 180, 248);
+}
