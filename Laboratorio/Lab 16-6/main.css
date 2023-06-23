@@ -68,14 +68,19 @@ header nav ul li {
     font-family: Ysabeau Office;
 
 
-
 }
 
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+
+
+}
 
 main {
 
     width: 100%;
-    height: 80vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -85,11 +90,12 @@ main {
 main .productos {
     width: 100%;
     height: 70%;
-    background-color: rgb(9, 8, 9);
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
     margin-bottom: 20px;
+    margin-top:20px;
 
 
 }
@@ -101,23 +107,29 @@ main .productos {
     border-radius: 0px 30px 0px 0px;
 */
 
-main .productos .item {
-    background-color: chocolate;
 
-}
 
 
 main .productos .item-1 {
     background-image: url(./productos/Esfera-maceta.webp);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center; 
 
 }
+
+main .productos .item-1 .card-image{
+    position: relative;
+    left: 50%
+    
+}
+
 
 main .productos .item-2 {
     background-image: url(./productos/Macetas.webp);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+     background-position: center; 
 }
 
 main .productos .item-3 {
@@ -126,13 +138,15 @@ main .productos .item-3 {
     background-image: url(./productos/maceta-rotomoldeado-MAIDA-piraimdal-texturada-plastico-vivero-agronomia.webp);
     background-size: cover;
     background-repeat: no-repeat;
+   
 }
 
 main .productos .item-4 {
     background-image: url(./productos/macetero-oval-con-plato-maceta-ceramico-vivero-agronomia.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    display: inline-flex;
+    background-position: center; 
+ 
 
 }
 
@@ -143,6 +157,7 @@ main .productos .item-5 {
     background-image: url(./productos/Matri-Piramidal.webp);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center; 
 }
 
 main .galeria {
@@ -153,13 +168,15 @@ main .galeria {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    margin-top:20px;
 }
 
 /* grid */
 main .galeria img {
     display: inline-flex;
-    width: 13%;
-    height: 25vh;
+    width: 15%;
+    height: 30vh;
+    
 
 
 }
