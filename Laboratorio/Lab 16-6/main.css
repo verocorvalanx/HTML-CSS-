@@ -119,21 +119,27 @@ main .productos .item-1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right; 
-    border:rgba(159, 188, 240, 0.43) solid 1px;
-    background-color: rgba(159, 188, 240, 0.43);
+    border: rgba(159, 188, 240, 0.43) solid 3px;
+    background-color: white;
+    font-family: Ysabeau Office;
 
 }
 
 main .productos .item-1 .precio{
-    background-color:cornflowerblue;
+    background-color:rgba(159, 188, 240, 0.43);
     width:25%;
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
     font-weight: bold;
     border-radius: 20px 0px 20px 0px;
     margin-top: 0;
+    font-family: Ysabeau Office;
+
+
+
+
  
     
 }
@@ -146,6 +152,11 @@ main .productos .item-1 .precio{
    
 }
 
+main .productos .item button{
+    font-family: Ysabeau Office;
+ 
+}
+
 
 main .productos .item-2 {
     background-image: url(./productos/Macetas.webp);
@@ -153,19 +164,21 @@ main .productos .item-2 {
     background-repeat: no-repeat;
     background-position: right; 
     border:rgba(159, 188, 240, 0.43) solid 1px;
-    background-color: rgba(159, 188, 240, 0.43);
+    background-color: white;
+    font-family: Ysabeau Office;
 }
 
 main .productos .item-2 .precio{
-    background-color:cornflowerblue;
+    background-color:rgba(159, 188, 240, 0.43);
     width:25%;
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
     font-weight: bold;
     border-radius: 20px 0px 20px 0px;
     margin-top: 0;
+    font-family: Ysabeau Office;
  
     
 }
@@ -175,22 +188,25 @@ main .productos .item-3 {
     background-image: url(./productos/maceta-rotomoldeado-MAIDA-piraimdal-texturada-plastico-vivero-agronomia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(159, 188, 240, 0.43);
+    background-color: white;
+    font-family: Ysabeau Office;
     
 
    
 }
 main .productos .item-3 .precio{
-    background-color:cornflowerblue;
-    border:rgba(159, 188, 240, 0.43) solid 1px;
+    background-color:rgba(159, 188, 240, 0.95);
+    color:rgb(0, 0, 0);
     width:25%;
-    color:white;
+    border:rgba(159, 188, 240, 0.43) solid 1px;
+   
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
     font-weight: bold;
     border-radius: 20px 0px 20px 0px;
     margin-top: 0;
+    font-family: Ysabeau Office;
     
 }
 
@@ -201,21 +217,23 @@ main .productos .item-4 {
     background-repeat: no-repeat;
     background-position: right;
     border:rgba(159, 188, 240, 0.43) solid 1px;
-    background-color: rgba(159, 188, 240, 0.43);
+    background-color: white;
+    font-family: Ysabeau Office;
  
 
 
 }
 main .productos .item-4 .precio{
-    background-color:cornflowerblue;
+    background-color:rgba(159, 188, 240, 0.43);
     width:25%;
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
     font-weight: bold;
     border-radius: 20px 0px 20px 0px;
     margin-top: 0;
+    font-family: Ysabeau Office;
     
  
     
@@ -230,18 +248,21 @@ main .productos .item-5 {
     background-repeat: no-repeat;
     background-position: right; 
     border:rgba(159, 188, 240, 0.43) solid 1px;
-    background-color: rgba(159, 188, 240, 0.43);
+    background-color: white;
+    font-family: Ysabeau Office;
 }
 main .productos .item-5 .precio{
-    background-color:cornflowerblue;
+    background-color:rgba(159, 188, 240, 0.43);
     width:25%;
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
     font-weight: bold;
     border-radius: 20px 0px 20px 0px;
+    
     margin-top: 0;
+    font-family: Ysabeau Office;
  
     
 }
@@ -290,14 +311,18 @@ footer form {
     gap: 30px;
     align-items: center;
     justify-content: center;
+    font-family: Ysabeau Office;
 
 }
 
 footer form input {
     width: 50%;
     height: 3vh;
+    font-family: Ysabeau Office;
 }
-
+footer form button{
+    font-family: Ysabeau Office;
+}
 footer .redes {
 
     width: 100%;
