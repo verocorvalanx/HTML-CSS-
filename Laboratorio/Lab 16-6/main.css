@@ -12,6 +12,7 @@ sans-serif;
 body {
     display: flex;
     flex-direction: column;
+
 }
 
 header {
@@ -43,6 +44,7 @@ header nav {
     border-bottom: solid black 1px;
 
 
+
 }
 
 header nav ul {
@@ -53,6 +55,7 @@ header nav ul {
     flex-wrap: wrap;
     gap: 100px;
     margin-left: 20%;
+
 
 
 }
@@ -68,6 +71,7 @@ header nav ul li {
     font-family: Ysabeau Office;
 
 
+
 }
 
 header nav ul li a {
@@ -75,9 +79,11 @@ header nav ul li a {
     color: black;
 
 
+
 }
-header nav ul li a:hover{
-    color:cornflowerblue;
+
+header nav ul li a:hover {
+    color: cornflowerblue;
     font-size: larger;
 }
 
@@ -98,8 +104,8 @@ main .productos {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    margin-bottom: 20px;
-    margin-top:20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 
 
 }
@@ -111,24 +117,37 @@ main .productos {
     border-radius: 0px 30px 0px 0px;
 */
 
+main .productos .item button {
+    width: 40px;
+    height: 40px;
+}
 
+.fa-cart-shopping:hover {
+    color: green;
+    cursor: pointer;
+}
 
+.fa-heart:hover {
+    color: red;
+    cursor: pointer;
+}
 
 main .productos .item-1 {
     background-image: url(./productos/Esfera-maceta.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right; 
-    border: rgba(159, 188, 240, 0.43) solid 3px;
+    background-position: right;
+    border: rgba(159, 188, 240, 0.43) solid 1px;
     background-color: white;
     font-family: Ysabeau Office;
+    position: relative;
 
 }
 
-main .productos .item-1 .precio{
-    background-color:rgba(159, 188, 240, 0.43);
-    width:25%;
-    color:rgb(0, 0, 0);
+main .productos .item-1 .precio {
+    background-color: rgba(159, 188, 240, 0.43);
+    width: 25%;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
@@ -139,22 +158,34 @@ main .productos .item-1 .precio{
 
 
 
-
- 
-    
 }
 
+main .productos .item-1 .card-image {
+    position: absolute;
+    bottom: 10%;
+    font-size: 24px;
+    padding: 10%;
 
+}
 
-.item{
-    border: none;
+.botones {
+    margin-top: 30px;
+
+}
+
+.fa-cart-shopping {
+    margin-right: 30px;
+}
+
+.item {
+
     border-radius: 20px 20px 20px 20px;
-   
+
 }
 
-main .productos .item button{
+main .productos .item button {
     font-family: Ysabeau Office;
- 
+
 }
 
 
@@ -162,16 +193,17 @@ main .productos .item-2 {
     background-image: url(./productos/Macetas.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right; 
-    border:rgba(159, 188, 240, 0.43) solid 1px;
+    background-position: right;
+    border: rgba(159, 188, 240, 0.43) solid 1px;
     background-color: white;
     font-family: Ysabeau Office;
+    position: relative;
 }
 
-main .productos .item-2 .precio{
-    background-color:rgba(159, 188, 240, 0.43);
-    width:25%;
-    color:rgb(0, 0, 0);
+main .productos .item-2 .precio {
+    background-color: rgba(159, 188, 240, 0.43);
+    width: 25%;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
@@ -179,27 +211,55 @@ main .productos .item-2 .precio{
     border-radius: 20px 0px 20px 0px;
     margin-top: 0;
     font-family: Ysabeau Office;
- 
-    
+
+
 }
+
+main .productos .item-2 .card-image {
+    position: absolute;
+    bottom: 10%;
+    font-size: 24px;
+    padding: 10%;
+
+}
+
 main .productos .item-3 {
     grid-row: 1 / span 2;
     grid-column: 3;
-    background-image: url(./productos/maceta-rotomoldeado-MAIDA-piraimdal-texturada-plastico-vivero-agronomia.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: white;
     font-family: Ysabeau Office;
-    
+    position: relative;
+    border: rgba(159, 188, 240, 0.43) solid 1px;
 
-   
 }
-main .productos .item-3 .precio{
-    background-color:rgba(159, 188, 240, 0.95);
-    color:rgb(0, 0, 0);
-    width:25%;
-    border:rgba(159, 188, 240, 0.43) solid 1px;
-   
+
+main .productos .item-3 .card-image {
+    background-image: url(./productos/maceta-rotomoldeado-MAIDA-piraimdal-texturada-plastico-vivero-agronomia.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+main .productos .item-3 .description {
+    display: block;
+    font-size: 24px;
+    padding-left: 40%;
+    padding-top: 15px;
+    clear: both;
+
+
+}
+
+
+
+
+
+main .productos .item-3 .precio {
+    background-color: rgb(207, 219, 241);
+    width: 25%;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
@@ -207,8 +267,11 @@ main .productos .item-3 .precio{
     border-radius: 20px 0px 20px 0px;
     margin-top: 0;
     font-family: Ysabeau Office;
-    
+
+
+
 }
+
 
 
 main .productos .item-4 {
@@ -216,17 +279,19 @@ main .productos .item-4 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    border:rgba(159, 188, 240, 0.43) solid 1px;
+    border: rgba(159, 188, 240, 0.43) solid 1px;
     background-color: white;
     font-family: Ysabeau Office;
- 
+    position: relative;
+
 
 
 }
-main .productos .item-4 .precio{
-    background-color:rgba(159, 188, 240, 0.43);
-    width:25%;
-    color:rgb(0, 0, 0);
+
+main .productos .item-4 .precio {
+    background-color: rgba(159, 188, 240, 0.43);
+    width: 25%;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
@@ -234,38 +299,55 @@ main .productos .item-4 .precio{
     border-radius: 20px 0px 20px 0px;
     margin-top: 0;
     font-family: Ysabeau Office;
-    
- 
-    
+
+
+
 }
 
+main .productos .item-4 .card-image {
+    position: absolute;
+    bottom: 10%;
+    font-size: 24px;
+    padding: 10%;
 
+}
 
 
 main .productos .item-5 {
     background-image: url(./productos/Matri-Piramidal.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right; 
-    border:rgba(159, 188, 240, 0.43) solid 1px;
+    background-position: right;
+    border: rgba(159, 188, 240, 0.43) solid 1px;
     background-color: white;
     font-family: Ysabeau Office;
+    position: relative;
 }
-main .productos .item-5 .precio{
-    background-color:rgba(159, 188, 240, 0.43);
-    width:25%;
-    color:rgb(0, 0, 0);
+
+main .productos .item-5 .precio {
+    background-color: rgba(159, 188, 240, 0.43);
+    width: 25%;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     padding: 5px;
     padding-left: 20px;
     font-weight: bold;
     border-radius: 20px 0px 20px 0px;
-    
+
     margin-top: 0;
     font-family: Ysabeau Office;
- 
-    
+
+
 }
+
+main .productos .item-5 .card-image {
+    position: absolute;
+    bottom: 10%;
+    font-size: 24px;
+    padding: 10%;
+
+}
+
 main .galeria {
     width: 100%;
     height: 30%;
@@ -274,33 +356,41 @@ main .galeria {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    margin-top:20px;
+    margin-top: 20px;
+
 }
 
 main .galeria img {
     display: inline-flex;
     width: 15%;
     height: 30vh;
-  margin-right: 5px;
-  cursor: pointer;
-  object-fit:cover;
-  transition: 1s linear;
-  filter: grayscale(80%)
+    cursor: pointer;
+    object-fit: cover;
+    transition: 1s linear;
+    filter: grayscale(85%);
 
 }
-main .galeria img:hover{
+
+main .galeria img:hover {
     filter: grayscale(0);
     width: 20%;
     height: 35vh;
+
+
 }
+
 footer {
     border-top: solid black 1px;
     width: 100%;
     height: 10vh;
     display: flex;
-    margin-top: 10px;
     padding: 10px;
     box-sizing: border-box;
+    background-color: rgb(71, 71, 71);
+    position: sticky;
+    bottom: 0px;
+    margin-top: 20px;
+
 }
 
 footer form {
@@ -315,14 +405,38 @@ footer form {
 
 }
 
+footer form label {
+    color: white;
+    font-size: 24px;
+
+}
+
 footer form input {
     width: 50%;
     height: 3vh;
     font-family: Ysabeau Office;
+    border-radius: 20px 20px 20px 20px;
 }
-footer form button{
+
+footer form input:focus {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    outline: thick double cornflowerblue;
     font-family: Ysabeau Office;
+    padding: 10px;
+    font-size: 20px;
 }
+
+footer form button {
+    font-family: Ysabeau Office;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer form button:hover {
+    cursor: pointer;
+}
+
 footer .redes {
 
     width: 100%;
@@ -332,4 +446,8 @@ footer .redes {
     align-items: center;
     justify-content: center;
     gap: 30px;
+}
+
+.fa-brands:hover {
+    cursor: pointer;
 }

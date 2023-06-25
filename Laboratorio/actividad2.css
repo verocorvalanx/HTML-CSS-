@@ -6,7 +6,7 @@ sans-serif;
 * {
     margin: 0px, auto;
     padding: 0px;
-   
+
     box-sizing: border-box;
 }
 
@@ -53,7 +53,7 @@ header {
     padding-right: 30px;
     background-color: #e53631;
     width: 100%;
-    
+
 
 }
 
@@ -67,7 +67,7 @@ header nav li {
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 80px;
-    
+
 
 }
 
@@ -259,7 +259,7 @@ footer {
 
 .bxl-twitter:hover {
     font-size: 60px;
-    
+
 
 }
 
