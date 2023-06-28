@@ -41,7 +41,6 @@ header nav {
     width: 70%;
     display: flex;
     background-color: rgb(255, 255, 255);
-    border-bottom: solid black 1px;
 
 
 
@@ -78,13 +77,15 @@ header nav ul li a {
     text-decoration: none;
     color: black;
 
-
-
 }
+
+
+
 
 header nav ul li a:hover {
     color: cornflowerblue;
     font-size: larger;
+
 }
 
 main {
@@ -126,29 +127,32 @@ main .productos .item button {
     color: red;
     cursor: pointer;
 }
- 
+
 main .productos .item {
-   
+
     border-radius: 30px 30px 30px 30px;
-   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     background-color: white;
-    border: solid black 1px;
+
     display: inline-flex;
-    
+
 }
-main .productos .item:hover{
+
+main .productos .item:hover {
     background-color: rgb(212, 224, 247);
-    border:none;
+    border: none;
 }
-.item .card-des{
+
+.item .card-des {
     display: flex;
     flex-direction: column;
-    gap:30%;
+    gap: 30%;
     width: 50%;
     padding-left: 20px;
     padding-bottom: 40px;
 }
-.item .precio{
+
+.item .precio {
     display: flex;
     width: 30%;
     background-color: rgba(159, 188, 240, 0.43);
@@ -161,26 +165,26 @@ main .productos .item:hover{
     margin-top: 0;
 }
 
-.item .descripcion{
-display: flex;
-font-size: 20px;
-font-weight: bold;
-font-family: Ysabeau Office;
-justify-content: center;
+.item .descripcion {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Ysabeau Office;
+    justify-content: center;
 
 }
 
-.item .botones{
+.item .botones {
     display: inline-flex;
     gap: 30%;
     padding-left: 25%;
-    
-    
 
- 
+
+
+
 }
 
-.item-1 .card-image{
+.item-1 .card-image {
     display: inline-flex;
     width: 50%;
     background-image: url(./productos/Macetas.webp);
@@ -194,55 +198,7 @@ justify-content: center;
 
 
 
-main .productos .item-3 {
-    grid-row: 1 / span 2;
-    grid-column: 3;
-    font-family: Ysabeau Office;
-    position: relative;
-    border: rgba(159, 188, 240, 0.43) solid 1px;
-
-}
-
-main .productos .item-3 .card-image {
-    background-image: url(./productos/maceta-rotomoldeado-MAIDA-piraimdal-texturada-plastico-vivero-agronomia.jpg);
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px 20px 0px 0px;
-
-}
-
-main .productos .item-3 .description {
-    display: block;
-    font-size: 24px;
-    padding-left: 40%;
-    padding-top: 15px;
-    clear: both;
-
-
-}
-
-
-
-
-
-main .productos .item-3 .precio {
-    background-color: rgb(207, 219, 241);
-    width: 25%;
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-    padding: 5px;
-    padding-left: 20px;
-    font-weight: bold;
-    border-radius: 20px 0px 20px 0px;
-    margin-top: 0;
-    font-family: Ysabeau Office;
-
-}
-
-
-.item-2 .card-image{
+.item-2 .card-image {
     display: inline-flex;
     width: 50%;
     background-image: url(./productos/Matri-Piramidal.webp);
@@ -252,7 +208,73 @@ main .productos .item-3 .precio {
     background-repeat: no-repeat;
 }
 
-.item-4 .card-image{
+
+
+main .productos .item-3 {
+    grid-row: 1 / span 2;
+    grid-column: 3;
+    font-family: Ysabeau Office;
+    border: rgba(159, 188, 240, 0.43) solid 1px;
+
+}
+
+.item-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-3 .card-image3 {
+    display: flex;
+    height: 80%;
+    background-image: url(./productos/maceta-rotomoldeado-MAIDA-piraimdal-texturada-plastico-vivero-agronomia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.item-3 .precio3 {
+    display: flex;
+    height: 10%;
+    background-color: rgb(118, 205, 118);
+    font-family: Ysabeau Office;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 30px;
+    font-weight: bold;
+    border-radius: 30px 0px 30px 0px;
+    margin-top: 0;
+}
+
+.item-3 .card-des3 {
+    display: flex;
+    height: 20%;
+}
+
+.item-3 .descripcion3 {
+    display: inline-flex;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Ysabeau Office;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones3 {
+    display: inline-flex;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Ysabeau Office;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    padding-right: 10%;
+
+}
+
+.item-4 .card-image {
     display: inline-flex;
     width: 50%;
     background-image: url(./productos/macetero-oval-con-plato-maceta-ceramico-vivero-agronomia.webp);
@@ -262,7 +284,7 @@ main .productos .item-3 .precio {
     background-repeat: no-repeat;
 }
 
-.item-5 .card-image{
+.item-5 .card-image {
     display: inline-flex;
     width: 50%;
     background-image: url(./productos/Esfera-maceta.webp);
@@ -304,7 +326,7 @@ main .galeria img:hover {
 }
 
 footer {
-    border-top: solid black 1px;
+
     width: 100%;
     height: 10vh;
     display: flex;
