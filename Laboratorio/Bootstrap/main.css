@@ -140,3 +140,29 @@ section {
     width: 15px !important;
 
 }
+
+
+.cardig{
+    height: 70vh !important;
+    border: none !important;
+    background-color: rgb(112, 18, 18) !important;
+    color: white !important;
+}
+
+
+.remeras2 img {
+    height: 35vh;
+
+
+}
+
+.seccion{
+    width: 80% !important;
+    margin-left: 10% !important;
+}
+
+footer{
+    background-color: rgb(112, 18, 18);
+    height: 30vh;
+}
+
