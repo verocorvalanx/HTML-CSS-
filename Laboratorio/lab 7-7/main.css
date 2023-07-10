@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 
 
 #uno {
@@ -13,17 +7,22 @@
 
 }
 
+
 #divisor {
     background-color: darkkhaki;
     width: 70%;
     height: 20vh;
+    float: left;
 
 }
 
-.tres {
+#divisor2 {
     background-color: darksalmon;
     width: 30%;
     height: 20vh;
+    float:right;
+
+    
 
 }
 
@@ -34,11 +33,13 @@ button {
     margin: 10%;
 }
 
-#cuatro {
+#boton {
     background-color: darkmagenta;
     color: white;
 }
 
-#cinco {
-    background-color: gold;
+#boton2 {
+    background-color: white;
+    color:darkmagenta;
 }
+
