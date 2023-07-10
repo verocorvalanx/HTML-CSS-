@@ -1,5 +1,8 @@
-var ejemploDiv = document.querySelector("#edita")
-function edit() {
-   let ejemploDiv =  document.getElementById("#edita").style.width= "100%";
-    
-}
+let divisor = document.getElementById("divisor")
+
+   
+
+function edita(){
+  divisor.styles.width="100%" 
+};
+
