@@ -9,6 +9,16 @@ console.log(nombre);
 
 boton.addEventListener("click", function(){
     div1.append(nombre + " ");
+    Swal.fire({
+        position: 'top-center',
+        icon: 'success',
+        title: 'tuki',
+        background: '#fff5ee',
+        showConfirmButton: false,
+        timer: 1500
+      })
+    
+  
  
 }) 
 
@@ -32,3 +42,5 @@ setTimeout(function(){
 }, 3000);
 
 */
+
+
